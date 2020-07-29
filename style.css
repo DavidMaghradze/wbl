@@ -1142,7 +1142,7 @@ box-shadow: 0 10px 18px rgba(0, 0, 0, 0.3);
 .navigation .dropdown {
   position: absolute;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-  z-index: 2;
+  z-index: 999;
   left: 0;
   width: 100%;
   top: 60px;
@@ -1161,7 +1161,7 @@ box-shadow: 0 10px 18px rgba(0, 0, 0, 0.3);
     font-size: 13px; }
   .navigation .dropdown__row {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 25px;
     padding: 20px; }
   .navigation .dropdown__col:not(:last-child) {

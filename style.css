@@ -762,7 +762,10 @@ box-shadow: 0 10px 18px rgba(0, 0, 0, 0.3);
   .form label {
     font-size: 12px; }
   .form div {
-    margin-right: 20px; }
+    margin-right: 20px;
+    width: 100%;
+    overflow: hidden;
+  }
   .form select {
     padding: 10px;
     border: none; }
